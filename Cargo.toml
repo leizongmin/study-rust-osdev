@@ -11,4 +11,7 @@ panic = "abort" # disable stack unwinding on panic
 [profile.release]
 panic = "abort" # disable stack unwinding on panic
 
+[package.metadata.bootimage]
+default-target = "x86_64-leios.json"
+
 [dependencies]
